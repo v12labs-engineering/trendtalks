@@ -1,0 +1,136 @@
+html {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 15px;
+}
+
+body {
+  padding: 50px;
+  max-width: 900;
+  margin: 0 auto;
+  /* background-image: url('../images/grey.png');
+  background-repeat: repeat; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.mr-3 {
+  margin-right: 16px !important;
+}
+.f6 {
+  font-size: 12px !important;
+}
+.mt-2 {
+  margin-top: 8px !important;
+}
+.text-gray {
+  color: #586069 !important;
+}
+.repo-language-color {
+  border-radius: 50%;
+  display: inline-block;
+  height: 12px;
+  position: relative;
+  top: 1px;
+  width: 12px;
+}
+.res-image {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.card {
+  /* background: linear-gradient(to right,#fce4ed,#ffe8cc); */
+  /* border: 10px solid #fff; */
+  /* border: 1px solid #dedede; */
+  /* border-radius: 5px; */
+  padding: 15px;
+  border: 1px solid #da1b60;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px #dedede; */
+  margin-bottom: 35px;
+  color: #586069 !important;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  bottom: 28px;
+  background: white;
+  /* text-decoration: none; */
+  padding: 6;
+}
+.card-text {
+  margin-top: -15px;
+}
+.repo-article {
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 70%;
+  display: block;
+  color: #586069 !important;
+}
+.see-more-btn {
+  float: right;
+  border: 1px;
+  border-radius: 4px;
+  font-weight: 500;
+  padding: 8px;
+  cursor: pointer;
+  background: linear-gradient(to right, #fdc2c2, #fde3c3);
+}
+.see-more-btn:disabled {
+  cursor: default;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+ul li {
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+  padding-left: 20px;
+}
+
+ul[id^="twitter-"] li {
+  background-image: url("https://abs.twimg.com/favicons/favicon.ico");
+}
+
+ul[id^="hn-"] li {
+  background-image: url("https://news.ycombinator.com/favicon.ico");
+}
+
+ul[id^="reddit-"] li {
+  background-image: url("https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-57x57.png");
+}
+
+ul[id^="stackoverflow-"] li {
+  background-image: url("https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico");
+}
+
+ul[id^="devto-"] li {
+  background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--E8ak4Hr1--/c_limit,f_auto,fl_progressive,q_auto,w_32/https://dev-to.s3.us-east-2.amazonaws.com/favicon.ico");
+}
+
+
+.loader {
+  display: none;
+  height: 32px;
+  width: 30px;
+}
+.text-center {
+  text-align: center;
+}
