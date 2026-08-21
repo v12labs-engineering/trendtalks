@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:22-alpine
 
 # Create app directory
 WORKDIR /app
@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . /app
 
 # Install dependencies
-RUN yarn install
+RUN npm ci --omit=dev
 
 EXPOSE 3000
-CMD [ "yarn", "start" ]
+CMD [ "npm", "start" ]
